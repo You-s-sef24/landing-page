@@ -25,7 +25,7 @@ export default function Navbar() {
       <div className="flex items-center justify-end gap-2">
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden px-4 py-2 text-purple-600 rounded focus:outline-none hover:text-purple-600 transition-all"
+          className="md:hidden px-4 py-2 text-purple-600 rounded focus:outline-none hover:text-purple-600 transition-all cursor-pointer"
         >
           {isOpen ? (
             <svg

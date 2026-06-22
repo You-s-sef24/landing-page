@@ -28,7 +28,7 @@ export default function HeroSection() {
             strokeWidth="2.5"
             strokeLinecap="round"
             strokeLinejoin="round"
-            class="lucide lucide-arrow-right"
+            className="lucide lucide-arrow-right"
           >
             <path d="M5 12h14"></path>
             <path d="m12 5 7 7-7 7"></path>
@@ -44,7 +44,7 @@ export default function HeroSection() {
       </div>
 
       <small className="text-gray-500 text-sm mt-4 md:mt-0">
-        Trusted by 2,400+ teams worldwide · No credit card required
+        Trusted by <strong>2,400+</strong> teams worldwide · No credit card required
       </small>
     </div>
   );

@@ -13,7 +13,7 @@ export default function AboutSection() {
           Built by engineers, for engineering teams
         </h3>
         <p className="text-gray-500 mt-2">
-          Luminary was founded in 2022 by a team of infrastructure veterans who
+          Teqneia was founded in 2022 by a team of infrastructure veterans who
           spent years fighting slow deploys, fragile pipelines, and siloed
           tooling at high-growth companies. We built the platform we always
           wished existed. Today we&apos;re a remote-first team of 38 people

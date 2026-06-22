@@ -11,8 +11,8 @@ export default function Navbar() {
       <h3 className="text-2xl text-purple-600">Teqneia</h3>
 
       <div className="hidden md:flex gap-4 justify-center">
-        <a href="#home" className="hover:text-purple-600 transition-all">
-          Home
+        <a href="#features" className="hover:text-purple-600 transition-all">
+          Features
         </a>
         <a href="#about" className="hover:text-purple-600 transition-all">
           About
@@ -61,11 +61,11 @@ export default function Navbar() {
       {isOpen && (
         <div className="md:hidden fixed top-16 left-0 w-screen bg-neutral-200/50 border-t border-gray-200 dark:border-neutral-700 shadow-lg z-50">
           <a
-            href="#home"
+            href="#features"
             className="block px-6 py-4 text-purple-600 hover:bg-purple-700 hover:text-white transition-all duration-200"
             onClick={() => setIsOpen(false)}
           >
-            Home
+            Features
           </a>
           <a
             href="#about"

@@ -5,10 +5,10 @@ export default function FeaturesSection() {
       className="flex flex-col items-center bg-gray-100 py-12 gap-4 scroll-mt-16"
     >
       <p className="text-purple-600">Features</p>
-      <h3 className="text-3xl font-bold text-black">
+      <h3 className="text-3xl text-center font-bold text-black">
         Everything your team needs
       </h3>
-      <p className="text-gray-600">
+      <p className="text-gray-600 text-center">
         A complete toolkit that grows with you — from prototype to production
         scale.
       </p>

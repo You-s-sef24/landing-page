@@ -56,7 +56,7 @@ export default function HeroSection() {
         </a>
       </div>
 
-      <small className="text-white text-sm mt-4 md:mt-0 z-10">
+      <small className="text-white text-center text-sm mt-4 md:mt-0 z-10">
         Trusted by <strong>2,400+</strong> teams worldwide · No credit card
         required
       </small>

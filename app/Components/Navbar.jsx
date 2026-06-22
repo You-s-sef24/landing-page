@@ -7,7 +7,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 grid grid-cols-2 md:grid-cols-3 items-center bg-white font-bold text-gray-500 p-3 z-50 border-b border-gray-200 dark:border-neutral-700 shadow-lg">
+    <nav className="sticky backdrop-blur-sm top-0 grid grid-cols-2 md:grid-cols-3 items-center bg-white/80 font-bold text-gray-500 p-3 z-50 border-b border-gray-200 dark:border-neutral-700 shadow-lg">
       <h3 className="text-2xl text-purple-600">Teqneia</h3>
 
       <div className="hidden md:flex gap-4 justify-center">
